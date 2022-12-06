@@ -3,6 +3,10 @@ import './Navbar.css';
 import { FaFacebookSquare } from 'react-icons/fa';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { useState } from 'react';
+import { Link, Route } from 'react-router-dom';
+import Home from './Home';
+import Contact from './Contact';
+import About from './About';
 
 const Navbar = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
@@ -22,26 +26,13 @@ const Navbar = () => {
         >
           <ul>
             <li>
-              <a href="/"> NEWS</a>
+              <Link href={<Home />}> Home </Link>
             </li>
             <li>
-              <a href="/"> NEWS</a>
+              <Link href={<Contact />}> Contact </Link>
             </li>
             <li>
-              <a href="/"> NEWS</a>
-            </li>
-            <li>
-              <a href="/"> NEWS</a>
-            </li>
-            <li>
-              <a href="/"> NEWS</a>
-            </li>
-            <li>
-              <a href="/"> NEWS</a>
-            </li>
-
-            <li>
-              <a href="/"> NEWS</a>
+              A <Link href={<About />}> About </Link>
             </li>
             <li>
               <a href="/"> NEWS</a>
@@ -63,10 +54,6 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <section className="hero-section">
-        <p> latest </p>
-        <h1> news boxes</h1>
-      </section>
     </>
   );
 };
