@@ -40,22 +40,7 @@ const Navbar = () => {
             <li>
               <a href="/"> Buissness</a>
             </li>
-            <li>
-              <a href="/"> From Tv Chanel</a>
-            </li>
           </ul>
-
-          <li class="menu-has-children">
-            <a href="/">Downloads</a>
-            <ul>
-              <li>
-                <a href="/">Mobile Application for Android</a>
-              </li>
-              <li>
-                <a href="/">Mobile Application for IOS</a>
-              </li>
-            </ul>
-          </li>
         </div>
         <div className="social-media">
           <ul className="social-media-desktop">

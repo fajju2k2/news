@@ -16,7 +16,6 @@ const App = () => {
           ></Route>
           <Route path="/Sports" element={<Sports />}></Route>
         </Routes>
-        <Route path="/" element={<Home />}></Route>
       </BrowserRouter>
     </>
   );
