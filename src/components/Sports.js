@@ -1,16 +1,16 @@
 import Navbar from './Navbar';
 import React from 'react';
 
-const Contact = () => {
+const Sports = () => {
   return (
     <>
       {<Navbar />}
       <section className="hero-section">
-        <p> Contact </p>
-        <h1> Contact</h1>
+        <p> Sports</p>
+        <h1> No News for Sports today</h1>
       </section>
     </>
   );
 };
 
-export default Contact;
+export default Sports;

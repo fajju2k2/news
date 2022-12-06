@@ -3,10 +3,7 @@ import './Navbar.css';
 import { FaFacebookSquare } from 'react-icons/fa';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { useState } from 'react';
-import { Link, Route } from 'react-router-dom';
-import Home from './Home';
-import Contact from './Contact';
-import About from './About';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
@@ -26,18 +23,39 @@ const Navbar = () => {
         >
           <ul>
             <li>
-              <Link href={<Home />}> Home </Link>
+              <Link to="/"> Home </Link>
             </li>
             <li>
-              <Link href={<Contact />}> Contact </Link>
+              <Link to="/InternationalNews"> International News </Link>
             </li>
             <li>
-              A <Link href={<About />}> About </Link>
+              <Link to="/Sports"> Sports </Link>
             </li>
             <li>
-              <a href="/"> NEWS</a>
+              <a href="/Latest"> Latest</a>
+            </li>
+            <li>
+              <a href="/"> Trending</a>
+            </li>
+            <li>
+              <a href="/"> Buissness</a>
+            </li>
+            <li>
+              <a href="/"> From Tv Chanel</a>
             </li>
           </ul>
+
+          <li class="menu-has-children">
+            <a href="/">Downloads</a>
+            <ul>
+              <li>
+                <a href="/">Mobile Application for Android</a>
+              </li>
+              <li>
+                <a href="/">Mobile Application for IOS</a>
+              </li>
+            </ul>
+          </li>
         </div>
         <div className="social-media">
           <ul className="social-media-desktop">
