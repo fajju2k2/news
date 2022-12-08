@@ -27,7 +27,7 @@ const Navbar = () => {
         >
           <ul>
             <li>
-              <Link to="/"> Home </Link>
+              <Link to="/"> Live News </Link>
             </li>
             <li>
               <Link to="/InternationalNews"> International News </Link>

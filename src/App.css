@@ -28,6 +28,23 @@
   color: #61dafb;
 }
 
+/* .news {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.new {
+  border: 1px #404040 solid;
+  margin: 1rem;
+}
+.new img {
+  width: 100%;
+  max-width: 400px;
+}
+.news-info {
+  padding: 1rem;
+} */
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

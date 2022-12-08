@@ -6,8 +6,8 @@ const Home = () => {
     <>
       {<Navbar />}
       <section className="hero-section">
-        <p> Welcome </p>
-        <h1> Home Page</h1>
+        <p> Today </p>
+        <h1> News </h1>
       </section>
     </>
   );
