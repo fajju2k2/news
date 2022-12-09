@@ -42,7 +42,7 @@ const Navbar = () => {
               <a href="/Trending"> Trending</a>
             </li>
             <li>
-              <div class="dropdown">
+              <div className="dropdown">
                 <button class="dropbtn">Chanels</button>
 
                 <div class="dropdown-content">
